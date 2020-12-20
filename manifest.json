@@ -1,9 +1,0 @@
-{
-	"id": "magnetite-host",
-	"name": "Magnetite Host",
-	"version": "0.0.1",
-	"minAppVersion": "0.9.21",
-	"description": "Part of Magnetite, a system for coding Obsidian extensions in Rust",
-	"author": "liz.mars@pm.me",
-	"isDesktopOnly": false
-}
