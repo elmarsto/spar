@@ -2,7 +2,6 @@
   "include": ["src/**/*"],
 
   "compilerOptions": {
-    "declaration": true,
     "inlineSourceMap": true,
     "inlineSources": true,
     "module": "ESNext",
@@ -11,11 +10,8 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "lib": [
-      "dom",
       "es5",
-      "scripthost",
       "es2015"
     ],
-    "outDir": "dist"
   }
 }

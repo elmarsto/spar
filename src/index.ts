@@ -1,14 +1,8 @@
-import wasm from "../spar-rs/Cargo.toml";
+import wasm from "spar-rs";
 
-export default class Magnetite extends Plugin {
-	constructor(...args) {
-		super(...args);
-		this.guest = wasm();
-	}
-	async translate() {
-		const { translate } = await this.guest;
-		if (translate) {
-			translate(this);
-		}
+export default async function () {
+    const { translate } = await wasm();
+	if (translate) {
+		console.log(translate());
 	}
 };

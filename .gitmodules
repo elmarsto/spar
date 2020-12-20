@@ -1,6 +1,0 @@
-[submodule "magnetite-guest"]
-	path = magnetite-guest
-	url = ../magnetite-guest/
-[submodule "spar-rs"]
-	path = spar-rs
-	url = https://github.com/elmarsto/spar-rs.git

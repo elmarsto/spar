@@ -1,19 +1,21 @@
 import typescript from '@rollup/plugin-typescript';
 import {nodeResolve} from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import rust from '@wasm-tool/rollup-plugin-rust';
+import wasm from '@rollup/plugin-wasm';
 
 export default {
-  input: 'src/index.ts',
+  input: {
+    main: 'src/index.ts',
+  },
   output: {
-    file: 'dist/main.js',
+    dir: 'dist/',
     sourcemap: 'inline',
     format: 'cjs',
     exports: 'default'
   },
   plugins: [
     typescript(),
-    rust({ inlineWasm: true }),
+    wasm(),
     nodeResolve({browser: true}),
     commonjs(),
   ]
