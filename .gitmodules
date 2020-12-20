@@ -1,0 +1,3 @@
+[submodule "magnetite-guest"]
+	path = magnetite-guest
+	url = ../magnetite-guest/
