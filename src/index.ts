@@ -1,4 +1,4 @@
-import wasm from "./magnetite-guest/Cargo.toml";
+import wasm from "../spar-rs/Cargo.toml";
 
 export default class Magnetite extends Plugin {
 	constructor(...args) {

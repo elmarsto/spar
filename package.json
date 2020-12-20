@@ -2,7 +2,7 @@
   "name": "spar",
   "version": "0.0.1",
   "description": "Automatically create Rust bindings from Typescript",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
     "build": "rollup --config rollup.config.js"
