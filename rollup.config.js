@@ -6,7 +6,7 @@ import rust from '@wasm-tool/rollup-plugin-rust';
 export default {
   input: 'src/index.ts',
   output: {
-    file: 'main.js',
+    file: 'dist/main.js',
     sourcemap: 'inline',
     format: 'cjs',
     exports: 'default'
