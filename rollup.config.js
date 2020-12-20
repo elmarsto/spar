@@ -1,5 +1,6 @@
 import typescript from '@rollup/plugin-typescript';
 import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-node-commonjs';
 import wasm from '@rollup/plugin-wasm';
 import pkg from './package.json';
 
@@ -25,5 +26,6 @@ export default {
     wasm(),
     typescript(),
     resolve({ extensions }),
+    commonjs()
   ]
 };
