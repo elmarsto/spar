@@ -28,7 +28,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "spar-rs": "0.0.1",
+    "spar-rs": "^0.0.3",
     "ts-morph": "^9.1.0"
   }
 }

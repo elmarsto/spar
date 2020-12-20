@@ -14,8 +14,8 @@ export default {
     exports: 'default'
   },
   plugins: [
-    typescript(),
     wasm(),
+    typescript(),
     nodeResolve({browser: true}),
     commonjs(),
   ]
