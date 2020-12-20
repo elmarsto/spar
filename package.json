@@ -1,6 +1,6 @@
 {
   "name": "spar-lib",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Automatically create Rust bindings from Typescript",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
