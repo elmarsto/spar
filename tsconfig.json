@@ -8,6 +8,8 @@
     "target": "es5",
     "noImplicitAny": true,
     "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "dist/",
     "importHelpers": true,
     "lib": [
       "es5",
