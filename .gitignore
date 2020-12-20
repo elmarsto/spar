@@ -13,4 +13,4 @@ main.js
 #user stuff
 .vscode/
 
-/dist/
+/dist/*

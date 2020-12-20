@@ -13,6 +13,7 @@
     "importHelpers": true,
     "lib": [
       "es5",
+      "dom",
       "es2015"
     ],
   }

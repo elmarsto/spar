@@ -5,7 +5,7 @@ import wasm from '@rollup/plugin-wasm';
 
 export default {
   input: {
-    main: 'src/index.ts',
+    index: 'src/index.ts',
   },
   output: {
     dir: 'dist/',
