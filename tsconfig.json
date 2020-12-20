@@ -3,7 +3,7 @@
   "compilerOptions": {
     "inlineSourceMap": true,
     "inlineSources": true,
-    "module": "ESNext",
+    "module": "CommonJS",
     "target": "es5",
     "noImplicitAny": true,
     "moduleResolution": "node",
@@ -12,7 +12,6 @@
     "importHelpers": true,
     "lib": [
       "es5",
-      "dom",
       "es2015"
     ],
   }
