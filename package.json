@@ -1,9 +1,10 @@
 {
   "name": "spar-lib",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Automatically create Rust bindings from Typescript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": ["/dist/*"],
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
     "build": "rollup --config rollup.config.js",
