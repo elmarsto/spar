@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import wasm from '@rollup/plugin-wasm';
 import pkg from './package.json';
 
-const extensions = ['.js', '.ts', '.js', '.wasm'];
+const extensions = ['.js', '.cjs', '.js', '.wasm'];
 
 export default {
   input: 'src/index.ts',
@@ -16,11 +16,10 @@ export default {
   plugins: [
     wasm(),
     typescript(),
-    resolve({ extensions, jsnext: true, main: true }),
+    resolve(),
     commonjs({
       extensions,
-      transformMixedEsModules: true,
-      include: '../node_modules/**',
+      include: 'node_modules/**',
     })
   ]
 };
