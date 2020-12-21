@@ -33,7 +33,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "spar-rs": "^0.0.27",
+    "spar-rs": "file:../spar-rs/pkg",
     "ts-morph": "^9.1.0"
   },
   "type": "commonjs",
