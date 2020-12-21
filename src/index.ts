@@ -1,5 +1,5 @@
 const Spar = require("spar-rs");
 
-export default function () {
-	console.log(Spar.translate());
+export default function (s: &string) {
+	console.log(Spar.translate(s));
 };
