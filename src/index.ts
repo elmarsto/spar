@@ -6,4 +6,4 @@ const { Project } = tsMorph;
 Object.assign(globalThis, tsMorph);
 
 export const translate = (dts: string) =>
-	spar.translate(new Project().createSourceFile("spar.d.ts", dts));
+	spar.translate(new Project({ useInMemoryFileSystem: true }).createSourceFile("sample.d.ts", dts));
